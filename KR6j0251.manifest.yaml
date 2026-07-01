@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6j0251/v1
+canonical_location: https://kanripo.org/bkk/KR6j0251/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 讚觀世音菩薩頌
+  identifiers:
+    alt_id:
+    - T20n1052
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T20/T20n1052.xml
+    old_id: T20n1052
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0251_000.yaml, hash: 'sha256:26820fe891f00d9942ae289b5f8e8751979af6103de8d5590c9fe4caacda3060'}
+  - {seq: 1, filename: KR6j0251_001.yaml, hash: 'sha256:d046a06143b8b2d4c0ac2de04915c438627977f04e8bb53386f08782299388f9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0251_001.markers.yaml, hash: 'sha256:e05f6aa4597f37f302782be2db4b4a5e00a0951d8a9a91097ab233505c2eeb19'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0251_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1125
+  label: 讚觀世音菩薩頌
+  type: juan
+  level: 1
+hash: sha256:ddbae10d53d9a4263096743943588763880f2ff8ffd69b3fde3159f286a43283
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
