@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0251_000.yaml, hash: 'sha256:26820fe891f00d9942ae289b5f8e8751979af6103de8d5590c9fe4caacda3060'}
-  - {seq: 1, filename: KR6j0251_001.yaml, hash: 'sha256:d046a06143b8b2d4c0ac2de04915c438627977f04e8bb53386f08782299388f9'}
+  - {seq: 1, filename: KR6j0251_001.yaml, hash: 'sha256:efefce3ff32e56d2681fc19f8894362deadf9a37cafa079f1ec6e5cf39b06b79'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0251_001.markers.yaml, hash: 'sha256:e05f6aa4597f37f302782be2db4b4a5e00a0951d8a9a91097ab233505c2eeb19'}
+  - {seq: 0, role: markers, filename: assets/KR6j0251_000.markers.yaml, hash: 'sha256:f911d7002522e7b99740f12f0eef0ff834dff75bbde4c24809c5de1cc732f6cf'}
+  - {seq: 1, role: markers, filename: assets/KR6j0251_001.markers.yaml, hash: 'sha256:a5bd6cc7827841f66e418c0090ca325ab9c0e3ee91d0297067c7c20d881acb8d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 讚觀世音菩薩頌
   type: juan
   level: 1
-hash: sha256:ddbae10d53d9a4263096743943588763880f2ff8ffd69b3fde3159f286a43283
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:76529e69984808f67523a85406cf220b5fc5a09b05f35ffca949695c642f9d83
